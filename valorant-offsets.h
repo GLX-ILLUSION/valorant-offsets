@@ -12,7 +12,7 @@ namespace offsets {
   uintptr_t bone_matrix           =     0x49A7A80;             // @image_base
   
   uintptr_t line_of_sight         =     0x50ff3f0;             // @image_base
-  uintptr_t skin_changer          =     0x23DCD00;             // @image_base
+  uintptr_t skin_changer_decrypt  =     0x23DCD00;             // @image_base
   uintptr_t veh_deref             =     0x1B6D880;             // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 
   uintptr_t enemy_outline_color   =     0x8F20A00;             // @image_base (FLinearColor)
