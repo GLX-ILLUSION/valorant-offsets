@@ -6,12 +6,12 @@ namespace offsets {
   uintptr_t gobj_state            =     0x8E73980;             // @image_base
   uintptr_t gobj_key              =     gobj_state + 0x38;     // @image_base + (gobj_state + 0x38)
   
-  uintptr_t find_object           =     0x3360180;             // @image_base
-  uintptr_t process_event         =     0x3321F70;             // @image_base
+  uintptr_t find_object           =     0x3360200;             // @image_base
+  uintptr_t process_event         =     0x3321FF0;             // @image_base
   
-  uintptr_t bone_matrix           =     0x49A7A80;             // @image_base
+  uintptr_t bone_matrix           =     0x49A7B00;             // @image_base
   
-  uintptr_t line_of_sight         =     0x50ff3f0;             // @image_base
+  uintptr_t line_of_sight         =     0x49DBF10;             // @image_base
   uintptr_t skin_changer_decrypt  =     0x23DCD00;             // @image_base
   uintptr_t veh_deref             =     0x1B6D880;             // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 
