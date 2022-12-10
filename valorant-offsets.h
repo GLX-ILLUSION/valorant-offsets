@@ -18,8 +18,8 @@ namespace offsets {
   uintptr_t enemy_outline_color   =     0x8F20A00;             // @image_base (FLinearColor)
   uintptr_t ally_outline_color    =     0x8F1F120;             // @image_base (FLinearColor)
   
-  uintptr_t proj_world_to_screen  =     0x52d9de0;             // @image_base
-  uintptr_t get_actor_bounds      =     0x507d1c0;             // @image_base
+  uintptr_t proj_world_to_screen  =     0x52d9e60;             // @image_base
+  uintptr_t get_actor_bounds      =     0x507d240;             // @image_base
   
   // VTables
   
