@@ -53,8 +53,8 @@ namespace offsets {
   uintptr_t dormant               =     0x100;                 // @player_pawn (bool)
   uintptr_t player_state          =     0x3F0;                 // @player_pawn (APlayerState)
   uintptr_t current_mesh          =     0x430;                 // @player_pawn (USkeletalMeshComponent)
-  uintptr_t outline_component     =     0x10e8;                // @player_pawn (UAresOutlineComponent)
-  uintptr_t portrait_map          =     0x10c0;                // @player_pawn (UCharacterPortraitMinimapComponent_C)
+  uintptr_t outline_component     =     0x1118;                // @player_pawn (UAresOutlineComponent)
+  uintptr_t portrait_map          =     0x10f0;                // @player_pawn (UCharacterPortraitMinimapComponent_C)
   uintptr_t character_map         =     portrait_map + 0x8;    // @player_pawn (UShooterCharacterMinimapComponent_C)
   
   // Minimap Component
