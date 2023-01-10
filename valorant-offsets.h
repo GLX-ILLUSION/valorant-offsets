@@ -12,14 +12,14 @@ namespace offsets {
   uintptr_t bone_matrix           =     0x49D6990;             // @image_base
   
   uintptr_t line_of_sight         =     0x4A0AD40;             // @image_base
-  uintptr_t skin_changer_decrypt  =     0x23DCFA0;             // @image_base
+  uintptr_t skin_changer_decrypt  =     0x2406D60;             // @image_base
   uintptr_t veh_deref             =     0x1B91190;             // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 
-  uintptr_t enemy_outline_color   =     0x8F20B80;             // @image_base (FLinearColor)
-  uintptr_t ally_outline_color    =     0x8F1F2A0;             // @image_base (FLinearColor)
+  uintptr_t enemy_outline_color   =     0x8F93F20;             // @image_base (FLinearColor)
+  uintptr_t ally_outline_color    =     0x8F93890;             // @image_base (FLinearColor)
   
-  uintptr_t proj_world_to_screen  =     0x4DDFA90;             // @image_base
-  uintptr_t get_actor_bounds      =     0x478ADC0;             // @image_base
+  uintptr_t proj_world_to_screen  =     0x4B241F0;             // @image_base
+  uintptr_t get_actor_bounds      =     0x47B95A0;             // @image_base
   
   // VTables
   
