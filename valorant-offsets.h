@@ -1,19 +1,19 @@
 namespace offsets {
   // General Offsets
-  uintptr_t uworld_state          =     0x90790C0;             // @image_base
+  uintptr_t uworld_state          =     0x9094F40;             // @image_base
   uintptr_t uworld_key            =     uworld_state + 0x38;   // @image_base + (uworld_state + 0x38)
   
-  uintptr_t gobj_state            =     0x8EE6FC0;             // @image_base
+  uintptr_t gobj_state            =     0x8F02E40;             // @image_base
   uintptr_t gobj_key              =     gobj_state + 0x38;     // @image_base + (gobj_state + 0x38)
   
-  uintptr_t find_object           =     0x338F970;             // @image_base
-  uintptr_t process_event         =     0x3351760;             // @image_base
+  uintptr_t find_object           =     0x33A8400;             // @image_base
+  uintptr_t process_event         =     0x336A1F0;             // @image_base
   
   uintptr_t bone_matrix           =     0x49D6990;             // @image_base
   
-  uintptr_t line_of_sight         =     0x4A0AD40;             // @image_base
+  uintptr_t line_of_sight         =     0x4A211C0;             // @image_base
   uintptr_t skin_changer_decrypt  =     0x2406D60;             // @image_base
-  uintptr_t veh_deref             =     0x1B91190;             // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
+  uintptr_t veh_deref             =     0x1BA1AA0;             // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 
   uintptr_t enemy_outline_color   =     0x8F93F20;             // @image_base (FLinearColor)
   uintptr_t ally_outline_color    =     0x8F93890;             // @image_base (FLinearColor)
