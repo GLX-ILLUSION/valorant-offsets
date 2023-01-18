@@ -9,7 +9,7 @@ namespace offsets {
   uintptr_t find_object           =     0x33A8400;             // @image_base
   uintptr_t process_event         =     0x336A1F0;             // @image_base
   
-  uintptr_t bone_matrix           =     0x49D6990;             // @image_base
+  uintptr_t bone_matrix           =     0x49EDAF0;             // @image_base
   
   uintptr_t line_of_sight         =     0x4A211C0;             // @image_base
   uintptr_t skin_changer_decrypt  =     0x2406D60;             // @image_base
