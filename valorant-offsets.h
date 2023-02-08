@@ -1,26 +1,26 @@
 namespace offsets {
   // General Offsets
-  uintptr_t uworld_state          =     0x9094F40;             // @image_base
+  uintptr_t uworld_state          =     0x912B300;             // @image_base
   uintptr_t uworld_key            =     uworld_state + 0x38;   // @image_base + (uworld_state + 0x38)
   
-  uintptr_t gobj_state            =     0x8F02E40;             // @image_base
+  uintptr_t gobj_state            =     0x8F98BC0;             // @image_base
   uintptr_t gobj_key              =     gobj_state + 0x38;     // @image_base + (gobj_state + 0x38)
   
-  uintptr_t find_object           =     0x33A8410;             // @image_base
-  uintptr_t process_event         =     0x336A200;             // @image_base
+  uintptr_t find_object           =     0x340F440;             // @image_base
+  uintptr_t process_event         =     0x33D1230;             // @image_base
   
-  uintptr_t bone_matrix           =     0x49EDB00;             // @image_base
+  uintptr_t bone_matrix           =     0x4A54E50;             // @image_base
   
-  uintptr_t line_of_sight         =     0x4A211D0;             // @image_base
+  uintptr_t line_of_sight         =     0x4A88530;             // @image_base
   uintptr_t skin_changer_decrypt  =     0x2410890;             // @image_base
-  uintptr_t veh_deref             =     0x1BA1AA0;             // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
+  uintptr_t veh_deref             =     0x1BF5BC0;             // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 
-  uintptr_t enemy_outline_color   =     0x8FAFCA0;             // @image_base (FLinearColor)
-  uintptr_t ally_outline_color    =     0x8FAF510;             // @image_base (FLinearColor)
-  uintptr_t ares_outline_mode     =     0x499F300;             // @image_base
+  uintptr_t enemy_outline_color   =     0x9045C20;             // @image_base (FLinearColor)
+  uintptr_t ally_outline_color    =     0x9044340;             // @image_base (FLinearColor)
+  uintptr_t ares_outline_mode     =     0x4A06650;             // @image_base
  
-  uintptr_t proj_world_to_screen  =     0x4B38C30;             // @image_base (ProjectWorldToScreen)
-  uintptr_t get_actor_bounds      =     0x47D14C0;             // @image_base
+  uintptr_t proj_world_to_screen  =     0x4BA0050;             // @image_base (ProjectWorldToScreen)
+  uintptr_t get_actor_bounds      =     0x4838720;             // @image_base
   
   // VTables
   
@@ -48,14 +48,14 @@ namespace offsets {
   
   // Player Pawn
   uintptr_t root_component        =     0x230;                 // @player_pawn (USceneComponent)
-  uintptr_t damage_handler        =     0x9c0;                 // @player_pawn (UDamageableComponent)
+  uintptr_t damage_handler        =     0x9e0;                 // @player_pawn (UDamageableComponent)
   uintptr_t actor_id              =     0x18;                  // @player_pawn (int)
   uintptr_t fname_id              =     0x38;                  // @player_pawn (int)
   uintptr_t dormant               =     0x100;                 // @player_pawn (bool)
   uintptr_t player_state          =     0x3F0;                 // @player_pawn (APlayerState)
   uintptr_t current_mesh          =     0x430;                 // @player_pawn (USkeletalMeshComponent)
   uintptr_t outline_component     =     0x1128;                // @player_pawn (UAresOutlineComponent)
-  uintptr_t portrait_map          =     0x1100;                // @player_pawn (UCharacterPortraitMinimapComponent_C)
+  uintptr_t portrait_map          =     0x1120;                // @player_pawn (UCharacterPortraitMinimapComponent_C)
   uintptr_t character_map         =     portrait_map + 0x8;    // @player_pawn (UShooterCharacterMinimapComponent_C)
   
   // Minimap Component
@@ -67,7 +67,7 @@ namespace offsets {
   uintptr_t bone_array            =     0x5c0;                 // @mesh (FBoxSphereBounds)
   uintptr_t bone_count            =     bone_array + 0x8;      // @mesh (int)
   uintptr_t last_sub_time         =     0x378;
-  uintptr_t last_render_time      =     last_sub_time + 0x4;   // @mesh + (last_sub_time + 0x4)
+  uintptr_t last_render_time      =     last_sub_time + 0x4;   // @mesh + (last_sub_time + 0x4) 
   uintptr_t outline_mode          =     0x330;                 // @mesh (int)
   uintptr_t attach_children       =     0x110;                 // @mesh (TArray<struct UMesh*>)
   uintptr_t attach_children_count =     attach_children + 0x8; // @mesh (int)
