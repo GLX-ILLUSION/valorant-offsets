@@ -6,21 +6,21 @@ namespace offsets {
   uintptr_t gobj_state            =     0x8F98BC0;             // @image_base
   uintptr_t gobj_key              =     gobj_state + 0x38;     // @image_base + (gobj_state + 0x38)
   
-  uintptr_t find_object           =     0x340F440;             // @image_base
-  uintptr_t process_event         =     0x33D1230;             // @image_base
+  uintptr_t find_object           =     0x340F450;             // @image_base
+  uintptr_t process_event         =     0x33D1240;             // @image_base
   
-  uintptr_t bone_matrix           =     0x4A54E50;             // @image_base
+  uintptr_t bone_matrix           =     0x4A54E60;             // @image_base
   
-  uintptr_t line_of_sight         =     0x4A88530;             // @image_base
-  uintptr_t skin_changer_decrypt  =     0x2466050;             // @image_base
+  uintptr_t line_of_sight         =     0x4A88540;             // @image_base
+  uintptr_t skin_changer_decrypt  =     0x2466060;             // @image_base
   uintptr_t veh_deref             =     0x1BF5BC0;             // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 
   uintptr_t enemy_outline_color   =     0x9045C20;             // @image_base (FLinearColor)
   uintptr_t ally_outline_color    =     0x9044340;             // @image_base (FLinearColor)
-  uintptr_t ares_outline_mode     =     0x4A06650;             // @image_base
+  uintptr_t ares_outline_mode     =     0x4A06660;             // @image_base
  
-  uintptr_t proj_world_to_screen  =     0x4BA0050;             // @image_base (ProjectWorldToScreen)
-  uintptr_t get_actor_bounds      =     0x4838720;             // @image_base
+  uintptr_t proj_world_to_screen  =     0x4BA0060;             // @image_base (ProjectWorldToScreen)
+  uintptr_t get_actor_bounds      =     0x4838730;             // @image_base
   
   // VTables
   
