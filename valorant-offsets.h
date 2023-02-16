@@ -66,7 +66,7 @@ namespace offsets {
   uintptr_t character_map         =     portrait_map + 0x8;    // @player_pawn (UShooterCharacterMinimapComponent_C)
   
   // Inventory
-  uintptr_t current_equippable    =     0x240;                 // @xxx (AAresEquippable)
+  uintptr_t current_equippable    =     0x240;                 // @inventory (AAresEquippable)
   
   // Minimap Component
   uintptr_t local_observer        =     0x530;                 // @player_pawn (bool)
