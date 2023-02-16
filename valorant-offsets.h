@@ -1,26 +1,32 @@
 namespace offsets {
   // General Offsets
-  uintptr_t uworld_state          =     0x9182500;             // @image_base
-  uintptr_t uworld_key            =     uworld_state + 0x38;   // @image_base + (uworld_state + 0x38)
+  uintptr_t uworld_state          =     0x9182500;                    // @image_base
+  uintptr_t uworld_key            =     uworld_state + 0x38;          // @image_base + (uworld_state + 0x38)
   
-  uintptr_t gobj_state            =     0x8FEFDC0;             // @image_base
-  uintptr_t gobj_key              =     gobj_state + 0x38;     // @image_base + (gobj_state + 0x38)
+  uintptr_t gobj_state            =     0x8FEFDC0;                    // @image_base
+  uintptr_t gobj_key              =     gobj_state + 0x38;            // @image_base + (gobj_state + 0x38)
   
-  uintptr_t find_object           =     0x34435A0;             // @image_base
-  uintptr_t process_event         =     0x3405390;             // @image_base
+  uintptr_t fname_pool            =     0x8FB54C0;                    // @image_base
+  uintptr_t fname_pool_state      =     0x8FE8480;                    // @image_base
+  uintptr_t fname_pool_key        =     fname_pool_state + 0x38;      // @image_base
+  uintptr_t fname_pool_decrypt_w  =     0x31C2A30;                    // @image_base
+  uintptr_t fname_pool_decrypt_nw =     0x31c29c0;                    // @image_base
   
-  uintptr_t bone_matrix           =     0x4A893B0;             // @image_base
+  uintptr_t find_object           =     0x34435A0;                    // @image_base
+  uintptr_t process_event         =     0x3405390;                    // @image_base
   
-  uintptr_t line_of_sight         =     0x4ABCA90;             // @image_base
-  uintptr_t skin_changer_decrypt  =     0x2487C30;             // @image_base
-  uintptr_t veh_deref             =     0x1C15C00;             // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
+  uintptr_t bone_matrix           =     0x4A893B0;                    // @image_base
+  
+  uintptr_t line_of_sight         =     0x4ABCA90;                    // @image_base
+  uintptr_t skin_changer_decrypt  =     0x2487C30;                    // @image_base
+  uintptr_t veh_deref             =     0x1C15C00;                    // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 
-  uintptr_t enemy_outline_color   =     0x909CD20;             // @image_base (FLinearColor)
-  uintptr_t ally_outline_color    =     0x909C790;             // @image_base (FLinearColor)
-  uintptr_t ares_outline_mode     =     0x4A3ABB0;             // @image_base
+  uintptr_t enemy_outline_color   =     0x909CD20;                    // @image_base (FLinearColor)
+  uintptr_t ally_outline_color    =     0x909C790;                    // @image_base (FLinearColor)
+  uintptr_t ares_outline_mode     =     0x4A3ABB0;                    // @image_base
  
-  uintptr_t proj_world_to_screen  =     0x4BD4300;             // @image_base (ProjectWorldToScreen)
-  uintptr_t get_actor_bounds      =     0x486CC80;             // @image_base
+  uintptr_t proj_world_to_screen  =     0x4BD4300;                    // @image_base (ProjectWorldToScreen)
+  uintptr_t get_actor_bounds      =     0x486CC80;                    // @image_base
   
   // VTables
   
@@ -54,9 +60,13 @@ namespace offsets {
   uintptr_t dormant               =     0x100;                 // @player_pawn (bool)
   uintptr_t player_state          =     0x3F0;                 // @player_pawn (APlayerState)
   uintptr_t current_mesh          =     0x430;                 // @player_pawn (USkeletalMeshComponent)
+  uintptr_t inventory             =     0x980;                 // @player_pawn (UAresInventory)
   uintptr_t outline_component     =     0x1148;                // @player_pawn (UAresOutlineComponent)
   uintptr_t portrait_map          =     0x1120;                // @player_pawn (UCharacterPortraitMinimapComponent_C)
   uintptr_t character_map         =     portrait_map + 0x8;    // @player_pawn (UShooterCharacterMinimapComponent_C)
+  
+  //
+  uintptr_t current_equippable    =     0x240;                 // @xxx (AAresEquippable)
   
   // Minimap Component
   uintptr_t local_observer        =     0x530;                 // @player_pawn (bool)
