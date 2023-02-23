@@ -1,6 +1,6 @@
 namespace offsets {
   // General Offsets
-  uintptr_t uworld_state          =     0x9182500;                    // @image_base
+  uintptr_t uworld_state          =     0x9182500;                    // @image_base 
   uintptr_t uworld_key            =     uworld_state + 0x38;          // @image_base + (uworld_state + 0x38)
   
   uintptr_t gobj_state            =     0x8FEFDC0;                    // @image_base
