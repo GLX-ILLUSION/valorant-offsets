@@ -1,32 +1,32 @@
 namespace offsets {
   // General Offsets
-  uintptr_t uworld_state          =     0x926CB00;                    // @image_base 
+  uintptr_t uworld_state          =     0x9087F00;                    // @image_base 
   uintptr_t uworld_key            =     uworld_state + 0x38;          // @image_base + (uworld_state + 0x38)
   
-  uintptr_t gobj_state            =     0x90DA580;                    // @image_base
+  uintptr_t gobj_state            =     0x8EF5980;                    // @image_base
   uintptr_t gobj_key              =     gobj_state + 0x38;            // @image_base + (gobj_state + 0x38)
   
-  uintptr_t fname_pool            =     0x909F840;                    // @image_base
-  uintptr_t fname_pool_state      =     0x90D2800;                    // @image_base
+  uintptr_t fname_pool            =     0x8EBAC40;                    // @image_base
+  uintptr_t fname_pool_state      =     0x8EEDC00;                    // @image_base
   uintptr_t fname_pool_key        =     fname_pool_state + 0x38;      // @image_base
-  uintptr_t fname_pool_decrypt_w  =     0x325DEE0;                    // @image_base
-  uintptr_t fname_pool_decrypt_nw =     0x325DE70;                    // @image_base
+  uintptr_t fname_pool_decrypt_w  =     0x30D96A0;                    // @image_base
+  uintptr_t fname_pool_decrypt_nw =     0x30D9630;                    // @image_base
   
-  uintptr_t find_object           =     0x34C7F50;                    // @image_base
-  uintptr_t process_event         =     0x34B3BD0;                    // @image_base
+  uintptr_t find_object           =     0x3343710;                    // @image_base
+  uintptr_t process_event         =     0x332F390;                    // @image_base
   
-  uintptr_t bone_matrix           =     0x4B228F0;                    // @image_base
+  uintptr_t bone_matrix           =     0x499E020;                    // @image_base
   
-  uintptr_t line_of_sight         =     0x4B53CA0;                    // @image_base
-  uintptr_t skin_changer_decrypt  =     0x2511C90;                    // @image_base
-  uintptr_t veh_deref             =     0x1C62DE0;                    // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
+  uintptr_t line_of_sight         =     0x49CF3D0;                    // @image_base
+  uintptr_t skin_changer_decrypt  =     0x23662A0;                    // @image_base
+  uintptr_t veh_deref             =     0x1AB6240;                    // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 
-  uintptr_t enemy_outline_color   =     0x9187480;                    // @image_base (FLinearColor)
-  uintptr_t ally_outline_color    =     0x9186E10;                    // @image_base (FLinearColor)
-  uintptr_t ares_outline_mode     =     0x4AD40F0;                    // @image_base
+  uintptr_t enemy_outline_color   =     0x9187480;                    // @image_base (FLinearColor) (*outdated atm)
+  uintptr_t ally_outline_color    =     0x9186E10;                    // @image_base (FLinearColor) (*outdated atm)
+  uintptr_t ares_outline_mode     =     0x494F820;                    // @image_base
  
-  uintptr_t proj_world_to_screen  =     0x4C69580;                    // @image_base (ProjectWorldToScreen)
-  uintptr_t get_actor_bounds      =     0x49061D0;                    // @image_base
+  uintptr_t proj_world_to_screen  =     0x4AE4CB0;                    // @image_base (ProjectWorldToScreen)
+  uintptr_t get_actor_bounds      =     0x4781900;                    // @image_base
   
   // VTables
   
@@ -54,15 +54,15 @@ namespace offsets {
   
   // Player Pawn
   uintptr_t root_component        =     0x230;                 // @player_pawn (USceneComponent)
-  uintptr_t damage_handler        =     0x9e0;                 // @player_pawn (UDamageableComponent)
+  uintptr_t damage_handler        =     0x9f8;                 // @player_pawn (UDamageableComponent)
   uintptr_t actor_id              =     0x18;                  // @player_pawn (int)
   uintptr_t fname_id              =     0x38;                  // @player_pawn (int)
   uintptr_t dormant               =     0x100;                 // @player_pawn (bool)
   uintptr_t player_state          =     0x3F0;                 // @player_pawn (APlayerState)
   uintptr_t current_mesh          =     0x430;                 // @player_pawn (USkeletalMeshComponent)
-  uintptr_t inventory             =     0x980;                 // @player_pawn (UAresInventory)
-  uintptr_t outline_component     =     0x1190;                // @player_pawn (UAresOutlineComponent)
-  uintptr_t portrait_map          =     0x1120;                // @player_pawn (UCharacterPortraitMinimapComponent_C)
+  uintptr_t inventory             =     0x998;                 // @player_pawn (UAresInventory)
+  uintptr_t outline_component     =     0x11b0;                // @player_pawn (UAresOutlineComponent)
+  uintptr_t portrait_map          =     0x1140;                // @player_pawn (UCharacterPortraitMinimapComponent_C)
   uintptr_t character_map         =     portrait_map + 0x8;    // @player_pawn (UShooterCharacterMinimapComponent_C)
   
   // Inventory
