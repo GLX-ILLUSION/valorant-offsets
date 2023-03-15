@@ -21,8 +21,8 @@ namespace offsets {
   uintptr_t skin_changer_decrypt  =     0x23662A0;                    // @image_base
   uintptr_t veh_deref             =     0x1AB6240;                    // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 
-  uintptr_t enemy_outline_color   =     0x9187480;                    // @image_base (FLinearColor) (*outdated atm)
-  uintptr_t ally_outline_color    =     0x9186E10;                    // @image_base (FLinearColor) (*outdated atm)
+  uintptr_t enemy_outline_color   =     0x8FA2880;                    // @image_base (FLinearColor) 
+  uintptr_t ally_outline_color    =     0x8FA20F0;                    // @image_base (FLinearColor) 
   uintptr_t ares_outline_mode     =     0x494F820;                    // @image_base
  
   uintptr_t proj_world_to_screen  =     0x4AE4CB0;                    // @image_base (ProjectWorldToScreen)
