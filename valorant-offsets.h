@@ -62,7 +62,7 @@ namespace offsets {
   uintptr_t current_mesh          =     0x430;                 // @player_pawn (USkeletalMeshComponent)
   uintptr_t inventory             =     0x9a0;                 // @player_pawn (UAresInventory)
   uintptr_t outline_component     =     0x11c0;                // @player_pawn (UAresOutlineComponent)
-  uintptr_t portrait_map          =     0x1158;                // @player_pawn (UCharacterPortraitMinimapComponent_C)
+  uintptr_t portrait_map          =     0x1150;                // @player_pawn (UCharacterPortraitMinimapComponent_C)
   uintptr_t character_map         =     portrait_map + 0x8;    // @player_pawn (UShooterCharacterMinimapComponent_C)
   
   // Inventory
