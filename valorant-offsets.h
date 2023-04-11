@@ -1,32 +1,32 @@
 namespace offsets {
   // General Offsets
-  uintptr_t uworld_state          =     0x8C495C0;                    // @image_base 
+  uintptr_t uworld_state          =     0x8C38CC0;                    // @image_base 
   uintptr_t uworld_key            =     uworld_state + 0x38;          // @image_base + (uworld_state + 0x38)
   
-  uintptr_t gobj_state            =     0x8ABAA80;                    // @image_base
+  uintptr_t gobj_state            =     0x8ABAA80;                    // @image_base  (Outdated - Updating later)
   uintptr_t gobj_key              =     gobj_state + 0x38;            // @image_base + (gobj_state + 0x38)
   
-  uintptr_t fname_pool            =     0x8A7FD80;                    // @image_base
-  uintptr_t fname_pool_state      =     0x8AB2D40;                    // @image_base
+  uintptr_t fname_pool            =     0x8A6F4C0;                    // @image_base
+  uintptr_t fname_pool_state      =     0x8AA2480;                    // @image_base
   uintptr_t fname_pool_key        =     fname_pool_state + 0x38;      // @image_base
-  uintptr_t fname_pool_decrypt_w  =     0x311C250;                    // @image_base
-  uintptr_t fname_pool_decrypt_nw =     0x311C1E0;                    // @image_base
+  uintptr_t fname_pool_decrypt_w  =     0x3107DC0;                    // @image_base
+  uintptr_t fname_pool_decrypt_nw =     0x3107D50;                    // @image_base
   
-  uintptr_t find_object           =     0x338F740;                    // @image_base
-  uintptr_t process_event         =     0x337B180;                    // @image_base
+  uintptr_t find_object           =     0x337B4D0;                    // @image_base
+  uintptr_t process_event         =     0x3366F10;                    // @image_base
   
-  uintptr_t bone_matrix           =     0x4A54980;                    // @image_base
+  uintptr_t bone_matrix           =     0x4A41D80;                    // @image_base
   
-  uintptr_t line_of_sight         =     0x4A83590;                    // @image_base
-  uintptr_t skin_changer_decrypt  =     0x237E040;                    // @image_base
-  uintptr_t veh_deref             =     0x1A8FDB0;                    // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
+  uintptr_t line_of_sight         =     0x4A70A70;                    // @image_base
+  uintptr_t skin_changer_decrypt  =     0x23A1460;                    // @image_base
+  uintptr_t veh_deref             =     0x1A89ED0;                    // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 
-  uintptr_t enemy_outline_color   =     0x8FA2880;                    // @image_base (FLinearColor) 
-  uintptr_t ally_outline_color    =     0x8B642B0;                    // @image_base (FLinearColor) 
-  uintptr_t ares_outline_mode     =     0x4A04500;                    // @image_base
+  uintptr_t enemy_outline_color   =     0x8B53BF0;                    // @image_base (FLinearColor) 
+  uintptr_t ally_outline_color    =     0x8B53460;                    // @image_base (FLinearColor) 
+  uintptr_t ares_outline_mode     =     0x49F1900;                    // @image_base
  
-  uintptr_t proj_world_to_screen  =     0x4BA1EB0;                    // @image_base (ProjectWorldToScreen)
-  uintptr_t get_actor_bounds      =     0x4830D60;                    // @image_base
+  uintptr_t proj_world_to_screen  =     0x4B8F3C0;                    // @image_base (ProjectWorldToScreen)
+  uintptr_t get_actor_bounds      =     0x481E220;                    // @image_base
   
   // VTables
   
