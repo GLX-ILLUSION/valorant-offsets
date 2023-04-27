@@ -4,8 +4,8 @@
 ABasePawn_C
 [~] Name: UberGraphFrame - New Offset: 0x1150 - (Before: 0x1140)
 [~] Name: Comp_PlayerCharacter_SpawnInvulnerability - New Offset: 0x1158 - (Before: 0x1148)
------- [~] Name: CharacterPortraitMinimapComponent - New Offset: 0x1160 - (Before: 0x1150)
------- [~] Name: ShooterCharacterMinimapComponent - New Offset: 0x1168 - (Before: 0x1158)
+[~] Name: CharacterPortraitMinimapComponent - New Offset: 0x1160 - (Before: 0x1150)
+[~] Name: ShooterCharacterMinimapComponent - New Offset: 0x1168 - (Before: 0x1158)
 [~] Name: ShooterCharacterVisibility1 - New Offset: 0x1170 - (Before: 0x1160)
 [~] Name: SplitBodyRotationRope - New Offset: 0x1178 - (Before: 0x1168)
 [~] Name: OutlineOverlay1P - New Offset: 0x1180 - (Before: 0x1170)
